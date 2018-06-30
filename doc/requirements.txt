@@ -1,0 +1,7 @@
+sphinx>=1.4
+pillow
+numpydoc
+sphinx-gallery
+ipykernel
+nbsphinx
+jupyter-sphinx-theme
