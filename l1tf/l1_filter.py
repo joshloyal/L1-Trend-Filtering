@@ -19,7 +19,6 @@ class L1TrendFilter(BaseTrendFilter):
         if self.prop is not None:
             self.alpha = l1_alpha_max(y) * self.prop
 
-        print(self.alpha)
         self.history_['trend'] = l1_trend_filter(
             y, alpha=self.alpha, verbose=self.verbose)
 

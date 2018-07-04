@@ -66,7 +66,7 @@ def find_cython(dir, files=None):
 def clean(path):
     for name in find_cython(path):
         name = name.replace('.', os.path.sep)
-        for ext in ['*.c', '*.so', '*.o']:
+        for ext in ['*.c', '*.so', '*.o', '*.html']:
             file_path = glob.glob(os.path.join(path, name + ext))
             if file_path and os.path.exists(file_path[0]):
                 os.unlink(file_path[0])
