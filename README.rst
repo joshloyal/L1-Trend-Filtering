@@ -53,14 +53,14 @@ Additionally, to run examples, you need matplotlib(>=2.0.0).
 
 Installation
 ------------
-You need a working installation of numpy and scipy to install L1 Trend Filtering. If you have a working installation of numpy and scipy, the easiest way to install sliced is using ``pip``::
+You need a working installation of numpy and scipy to install L1 Trend Filtering. If you have a working installation of numpy and scipy, the easiest way to install l1tf is using ``pip``::
 
-    pip install -U sliced
+    pip install -U l1tf
 
 If you prefer, you can clone the repository and run the setup.py file. Use the following commands to get the copy from GitHub and install all the dependencies::
 
     git clone https://github.com/joshloyal/l1tf.git
-    cd sliced
+    cd l1tf
     pip install .
 
 Or install using pip and GitHub::
